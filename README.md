@@ -1,6 +1,6 @@
 # 🌐 Portfólio Pessoal
 
-Este projeto é uma **página de portfólio pessoal**, desenvolvida com o objetivo de **testar e aprimorar minhas habilidades**, além de apresentar um pouco da minha história, conhecimentos e evolução na área.
+Este projeto é uma **página de portfólio pessoal**, desenvolvida com o objetivo de **testar o uso do GitHub Pages**, além de apresentar um pouco da minha história, conhecimentos e evolução na área.
 
 O portfólio está **publicado utilizando o GitHub Pages**, permitindo que qualquer pessoa possa acessá-lo diretamente pelo navegador.
 
@@ -15,7 +15,6 @@ O portfólio está **publicado utilizando o GitHub Pages**, permitindo que qualq
 Este projeto foi criado para:
 
 - Praticar e consolidar conhecimentos em **HTML, CSS e Bootstrap**
-- Criar uma página **responsiva** e organizada
 - Desenvolver um portfólio que represente minha **trajetória e habilidades**
 - Disponibilizar o projeto online através do **GitHub Pages**
 
@@ -38,5 +37,6 @@ No portfólio você encontrará:
 ## 👤 Autor
 
 **Raimundo Jairo da Silva Dias**  
-Projeto desenvolvido para fins de estudo e evolução pessoal.
+
+Este projeto foi desenvolvido para fins de estudo e evolução pessoal.
 
