@@ -3,6 +3,7 @@ body {
 }
 
 .hero {
+<<<<<<< HEAD
     min-height: 10vh;           /* diminui a altura */
     padding: 50px 0;            /* reduz o espaçamento interno */
     background: linear-gradient(
@@ -11,6 +12,11 @@ body {
         #ffffff,
         #fce7f3
     ); /* azul + branco + rosa pastel */
+=======
+    height: 60vh;
+    background: linear-gradient(120deg, #1f1c2c, #928dab);
+    color: white;
+>>>>>>> 8c720017e827a34f014a417c3fff6aa4ca3b8096
 }
 
 .hero h1 {
