@@ -3,8 +3,8 @@ body {
 }
 
 .hero {
-    min-height: 10vh;           /* diminui a altura */
-    padding: 50px 0;            /* reduz o espaçamento interno */
+    min-height: 50vh;           /* diminui a altura */
+    padding: 30px 0;            /* reduz o espaçamento interno */
     background: linear-gradient(
         135deg,
         #eaf2ff,
