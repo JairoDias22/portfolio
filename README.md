@@ -32,17 +32,11 @@ No portfólio você encontrará:
 - Uma apresentação pessoal  
 - Um resumo da minha história  
 - Informações sobre minhas habilidades  
-- Um layout simples, limpo e responsivo  
 
-## 🚀 Possíveis Melhorias Futuras
 
-- Adicionar animações e interações  
-- Criar uma seção de projetos mais detalhada  
-- Implementar um formulário de contato funcional  
-- Melhorar acessibilidade e SEO  
 
 ## 👤 Autor
 
-**Jairo Dias**  
+**Raimundo Jairo da Silva Dias**  
 Projeto desenvolvido para fins de estudo e evolução pessoal.
 
