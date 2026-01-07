@@ -1,0 +1,173 @@
+body {
+    padding-top: 70px;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(120deg, #1f1c2c, #928dab);
+    color: white;
+}
+
+section h2 {
+    font-weight: bold;
+}
+/* ===== CONFIGURAÇÕES GERAIS ===== */
+:root {
+    --azul-pastel: #8ecae6;
+    --azul-escuro: #4a6fa5;
+    --rosa-pastel: #f4acb7;
+    --branco: #ffffff;
+    --cinza-claro: #f8f9fa;
+    --texto: #333333;
+}
+
+body {
+    padding-top: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--texto);
+    background-color: var(--branco);
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background-color: var(--azul-escuro) !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: var(--branco) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--rosa-pastel) !important;
+}
+
+/* ===== HERO ===== */
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, var(--azul-pastel), var(--rosa-pastel));
+    color: var(--branco);
+}
+
+.hero h1 {
+    font-weight: 700;
+}
+
+.hero .btn-primary {
+    background-color: var(--branco);
+    color: var(--azul-escuro);
+    border: none;
+}
+
+.hero .btn-primary:hover {
+    background-color: var(--rosa-pastel);
+    color: var(--branco);
+}
+
+/* ===== SEÇÕES ===== */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: var(--azul-escuro);
+}
+
+/* ===== CARDS ===== */
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+    color: var(--azul-escuro);
+}
+
+/* ===== BADGES (HABILIDADES) ===== */
+.badge {
+    font-size: 1rem;
+    border-radius: 12px;
+}
+
+.bg-primary {
+    background-color: var(--azul-pastel) !important;
+    color: var(--texto);
+}
+
+.bg-secondary {
+    background-color: var(--rosa-pastel) !important;
+    color: var(--texto);
+}
+
+/* ===== SEÇÕES CLARAS ===== */
+.bg-light {
+    background-color: var(--cinza-claro) !important;
+}
+
+/* ===== CONTATO ===== */
+.contato-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contato-card {
+    border: none;
+    border-radius: 18px;
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.contato-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Ícones */
+.contato-icon {
+    font-size: 2.8rem;
+    color: #4f8cff; /* azul pastel */
+}
+
+/* Cores específicas */
+.whatsapp {
+    color: #25d366;
+}
+
+.linkedin {
+    color: #0a66c2;
+}
+
+.instagram {
+    color: #d63384; /* rosa pastel */
+}
+
+
+/* ===== FORMAÇÃO EM DESTAQUE ===== */
+.formacao-card {
+    border-radius: 20px;
+    border-left: 6px solid var(--azul-pastel);
+    transition: transform 0.3s ease;
+}
+
+.formacao-card:hover {
+    transform: translateY(-6px);
+}
+
+/* ===== EXPERIÊNCIA MAIS DISCRETA ===== */
+.experiencia-card {
+    border-radius: 16px;
+    background-color: var(--branco);
+}
+
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
