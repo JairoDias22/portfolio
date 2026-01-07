@@ -3,10 +3,29 @@ body {
 }
 
 .hero {
-    height: 100vh;
-    background: linear-gradient(120deg, #1f1c2c, #928dab);
-    color: white;
+    min-height: 10vh;           /* diminui a altura */
+    padding: 50px 0;            /* reduz o espaçamento interno */
+    background: linear-gradient(
+        135deg,
+        #eaf2ff,
+        #ffffff,
+        #fce7f3
+    ); /* azul + branco + rosa pastel */
 }
+
+.hero h1 {
+    font-size: 2.6rem;
+}
+
+.hero .lead {
+    font-size: 1.1rem;
+}
+
+.hero p {
+    margin-bottom: 0.5rem;
+}
+
+
 
 section h2 {
     font-weight: bold;
