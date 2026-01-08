@@ -1,4 +1,4 @@
-# 🌐 Portfólio Pessoal
+# 🌐 Página de Portfólio Pessoal
 
 Este projeto é uma **página de portfólio pessoal**, desenvolvida com o objetivo de **testar o uso do GitHub Pages**, além de apresentar um pouco da minha história, conhecimentos e evolução na área.
 
@@ -30,7 +30,8 @@ No portfólio você encontrará:
 
 - Uma apresentação pessoal  
 - Um resumo da minha história  
-- Informações sobre minhas habilidades  
+- Informações sobre minhas habilidades
+- Canais de contato
 
 
 
