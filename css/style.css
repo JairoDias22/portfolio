@@ -1,43 +1,3 @@
-body {
-    padding-top: 70px;
-}
-
-.hero {
-    min-height: 50vh;           /* diminui a altura */
-    padding: 30px 0;            /* reduz o espaçamento interno */
-    background: linear-gradient(
-        135deg,
-        #eaf2ff,
-        #ffffff,
-        #fce7f3
-    ); /* azul + branco + rosa pastel */
-}
-.hero h1 {
-    font-size: 2.6rem;
-}
-
-.hero .lead {
-    font-size: 1.1rem;
-}
-
-.hero p {
-    margin-bottom: 0.5rem;
-}
-
-section h2 {
-    font-weight: bold;
-}
-
-.sobre-box {
-    max-width: 800px; /* evita texto esticado */
-}
-
-#sobre p {
-    line-height: 1.7;
-}
-
-
-
 /* ===== CONFIGURAÇÕES GERAIS ===== */
 :root {
     --azul-pastel: #8ecae6;
@@ -72,12 +32,28 @@ body {
 /* ===== HERO ===== */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, var(--azul-pastel), var(--rosa-pastel));
+    min-height: 65vh;
+    padding: 50px 0;
+    background: linear-gradient(
+        135deg,
+        #ca60d4,
+        #8bbde4,
+        #db96d5c9
+    );
     color: var(--branco);
 }
 
 .hero h1 {
+    font-size: 2.6rem;
     font-weight: 700;
+}
+
+.hero .lead {
+    font-size: 1.1rem;
+}
+
+.hero p {
+    margin-bottom: 0.5rem;
 }
 
 .hero .btn-primary {
@@ -100,13 +76,31 @@ body {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 50%; /* totalmente arredondado */
+    border-radius: 50%;
     border: 5px solid #ffffff;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
+/* ===== SEÇÕES ===== */
+section {
+    padding: 60px 0;
+}
 
-/* TIMELINE */
+section h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: var(--azul-escuro);
+}
+
+.sobre-box {
+    max-width: 800px;
+}
+
+#sobre p {
+    line-height: 1.7;
+}
+
+/* ===== TIMELINE ===== */
 .timeline {
     display: flex;
     flex-direction: column;
@@ -119,7 +113,6 @@ body {
     gap: 2rem;
 }
 
-/* alterna lados */
 .timeline-item:nth-child(even) {
     flex-direction: row-reverse;
 }
@@ -140,34 +133,8 @@ body {
 }
 
 .timeline-content h5 {
-    color: #4f8cff; /* azul pastel */
+    color: #4f8cff;
     font-weight: 600;
-}
-
-/* RESPONSIVO */
-@media (max-width: 768px) {
-    .timeline-item,
-    .timeline-item:nth-child(even) {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .timeline-img img {
-        width: 180px;
-        height: 180px;
-    }
-}
-
-
-/* ===== SEÇÕES ===== */
-section {
-    padding: 60px 0;
-}
-
-section h2 {
-    font-weight: 700;
-    margin-bottom: 40px;
-    color: var(--azul-escuro);
 }
 
 /* ===== CARDS ===== */
@@ -181,7 +148,7 @@ section h2 {
     color: var(--azul-escuro);
 }
 
-/* ===== BADGES (HABILIDADES) ===== */
+/* ===== HABILIDADES ===== */
 .habilidade-card {
     border: none;
     border-radius: 16px;
@@ -195,9 +162,8 @@ section h2 {
 
 .habilidade-icon {
     font-size: 2.5rem;
-    color: #4f8cff; /* azul pastel */
+    color: #4f8cff;
 }
-
 
 /* ===== SEÇÕES CLARAS ===== */
 .bg-light {
@@ -224,27 +190,16 @@ section h2 {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
 }
 
-/* Ícones */
 .contato-icon {
     font-size: 2.8rem;
-    color: #4f8cff; /* azul pastel */
+    color: #4f8cff;
 }
 
-/* Cores específicas */
-.whatsapp {
-    color: #25d366;
-}
+.whatsapp { color: #25d366; }
+.linkedin { color: #0a66c2; }
+.instagram { color: #d63384; }
 
-.linkedin {
-    color: #0a66c2;
-}
-
-.instagram {
-    color: #d63384; /* rosa pastel */
-}
-
-
-/* ===== FORMAÇÃO EM DESTAQUE ===== */
+/* ===== FORMAÇÃO ===== */
 .formacao-card {
     border-radius: 20px;
     border-left: 6px solid var(--azul-pastel);
@@ -255,12 +210,11 @@ section h2 {
     transform: translateY(-6px);
 }
 
-/* ===== EXPERIÊNCIA MAIS DISCRETA ===== */
+/* ===== EXPERIÊNCIA ===== */
 .experiencia-card {
     border-radius: 16px;
     background-color: var(--branco);
 }
-
 
 /* ===== FOOTER ===== */
 footer {
@@ -268,3 +222,34 @@ footer {
     color: var(--branco);
 }
 
+/* ===== RESPONSIVO ===== */
+@media (max-width: 768px) {
+    .hero {
+        min-height: 45vh;
+        padding: 30px 15px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero .lead {
+        font-size: 1rem;
+    }
+
+    .profile-img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .timeline-item,
+    .timeline-item:nth-child(even) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .timeline-img img {
+        width: 180px;
+        height: 180px;
+    }
+}
